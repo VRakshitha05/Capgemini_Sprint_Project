@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SwagLabs Complete Suite">
+
+	<listeners>
+		<listener
+			class-name="ecommerce.SwagLabs.genericutility.ScreenshotListener" />
+	</listeners>
+
+	<parameter name="browser" value="chrome" />
+
+	<test name="SwagLabs 15 Test Scenarios">
+
+		<classes>
+
+			<!-- LOGIN TEST CASES -->
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithValidCredentials_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithInvalidUsername_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithInvalidPassword_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithInvalidCredentials_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithBlankUsername_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithBlankPassword_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Login.UserLoginWithLockedUser_Test" />
+
+			<class name="ecommerce.SwagLabs.Login.PasswordMasking_Test" />
+
+
+			<!-- INVENTORY TEST CASES -->
+
+			<class
+				name="ecommerce.SwagLabs.Inventory.VerifyProductsDisplayed_Test" />
+
+			<class name="ecommerce.SwagLabs.Inventory.SortProductsAZ_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Inventory.SortProductsLowToHigh_Test" />
+
+
+			<!-- CART TEST CASES -->
+
+			<class name="ecommerce.SwagLabs.Cart.ProductAddedToCart_Test" />
+
+			<class
+				name="ecommerce.SwagLabs.Cart.ProductRemovedFromCart_Test" />
+
+			<class name="ecommerce.SwagLabs.Cart.ContinueShopping_Test" />
+
+
+			<!-- CHECKOUT TEST CASE -->
+
+			<class name="ecommerce.SwagLabs.Checkout.CompleteCheckout_Test" />
+
+		</classes>
+
+	</test>
+
+</suite>

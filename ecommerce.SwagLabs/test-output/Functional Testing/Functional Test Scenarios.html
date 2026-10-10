@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Functional Test Scenarios</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Test Scenarios</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 12:34:54 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>98 seconds (98654 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithValidCredentials_Test.userLoginWithValidCredentials_Test()'><b>userLoginWithValidCredentials_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithValidCredentials_Test<br/>
+<a href="#Output-950125603" onClick='toggleBox("Output-950125603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-950125603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-950125603">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithValidCredentials_Test@38425407</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithBlankPassword_Test.userLoginWithBlankPassword_Test()'><b>userLoginWithBlankPassword_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithBlankPassword_Test<br/>
+<a href="#Output-1933224408" onClick='toggleBox("Output-1933224408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1933224408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1933224408">
+Blank password validation displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithBlankPassword_Test@5b12b668</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithLockedUser_Test.userLoginWithLockedUser_Test()'><b>userLoginWithLockedUser_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithLockedUser_Test<br/>
+<a href="#Output-325674467" onClick='toggleBox("Output-325674467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-325674467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-325674467">
+Locked user was rejected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithLockedUser_Test@1165b38</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.PasswordMasking_Test.passwordMasking_Test()'><b>passwordMasking_Test</b><br>Test class: ecommerce.SwagLabs.Login.PasswordMasking_Test<br/>
+<a href="#Output-282812721" onClick='toggleBox("Output-282812721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-282812721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-282812721">
+Password is masked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.PasswordMasking_Test@4c12331b</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Inventory.SortProductsAZ_Test.sortProductsAZ_Test()'><b>sortProductsAZ_Test</b><br>Test class: ecommerce.SwagLabs.Inventory.SortProductsAZ_Test<br/>
+<a href="#Output-737852016" onClick='toggleBox("Output-737852016", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737852016" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737852016">
+Products sorted from A to Z successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Inventory.SortProductsAZ_Test@3b69e7d1</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Cart.ProductRemovedFromCart_Test.productRemovedFromCart_Test()'><b>productRemovedFromCart_Test</b><br>Test class: ecommerce.SwagLabs.Cart.ProductRemovedFromCart_Test<br/>
+<a href="#Output-815648243" onClick='toggleBox("Output-815648243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815648243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815648243">
+Product removed from cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>ecommerce.SwagLabs.Cart.ProductRemovedFromCart_Test@1573f9fc</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Cart.ProductAddedToCart_Test.productAddedToCart_Test()'><b>productAddedToCart_Test</b><br>Test class: ecommerce.SwagLabs.Cart.ProductAddedToCart_Test<br/>
+<a href="#Output-26502020" onClick='toggleBox("Output-26502020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26502020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26502020">
+Product added to cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Cart.ProductAddedToCart_Test@5542c4ed</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithInvalidCredentials_Test.userLoginWithInvalidCredentials_Test()'><b>userLoginWithInvalidCredentials_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithInvalidCredentials_Test<br/>
+<a href="#Output-1056889967" onClick='toggleBox("Output-1056889967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1056889967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1056889967">
+Invalid username and password rejected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithInvalidCredentials_Test@4c402120</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Checkout.CompleteCheckout_Test.completeCheckout_Test()'><b>completeCheckout_Test</b><br>Test class: ecommerce.SwagLabs.Checkout.CompleteCheckout_Test<br/>
+<a href="#Output-1669104653" onClick='toggleBox("Output-1669104653", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1669104653" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1669104653">
+Login successful<br/>
+Sauce Labs Backpack added to cart<br/>
+Cart page opened<br/>
+Checkout Overview page displayed<br/>
+Order completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>ecommerce.SwagLabs.Checkout.CompleteCheckout_Test@44c03695</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithInvalidUsername_Test.userLoginWithInvalidUsername_Test()'><b>userLoginWithInvalidUsername_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithInvalidUsername_Test<br/>
+<a href="#Output-123629835" onClick='toggleBox("Output-123629835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-123629835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-123629835">
+Invalid username rejected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithInvalidUsername_Test@22ff4249</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Inventory.VerifyProductsDisplayed_Test.verifyProductsDisplayed_Test()'><b>verifyProductsDisplayed_Test</b><br>Test class: ecommerce.SwagLabs.Inventory.VerifyProductsDisplayed_Test<br/>
+<a href="#Output-1446291553" onClick='toggleBox("Output-1446291553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446291553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446291553">
+Products are displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Inventory.VerifyProductsDisplayed_Test@7586beff</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Inventory.SortProductsLowToHigh_Test.sortProductsLowToHigh_Test()'><b>sortProductsLowToHigh_Test</b><br>Test class: ecommerce.SwagLabs.Inventory.SortProductsLowToHigh_Test<br/>
+<a href="#Output-457714879" onClick='toggleBox("Output-457714879", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-457714879" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457714879">
+Products sorted by price low to high successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Inventory.SortProductsLowToHigh_Test@815b41f</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithBlankUsername_Test.userLoginWithBlankUsername_Test()'><b>userLoginWithBlankUsername_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithBlankUsername_Test<br/>
+<a href="#Output-1840217399" onClick='toggleBox("Output-1840217399", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1840217399" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1840217399">
+Blank username validation displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithBlankUsername_Test@327514f</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Login.UserLoginWithInvalidPassword_Test.userLoginWithInvalidPassword_Test()'><b>userLoginWithInvalidPassword_Test</b><br>Test class: ecommerce.SwagLabs.Login.UserLoginWithInvalidPassword_Test<br/>
+<a href="#Output-69160933" onClick='toggleBox("Output-69160933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69160933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69160933">
+Invalid password rejected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Login.UserLoginWithInvalidPassword_Test@2d1ef81a</td></tr>
+<tr>
+<td title='ecommerce.SwagLabs.Cart.ContinueShopping_Test.continueShopping_Test()'><b>continueShopping_Test</b><br>Test class: ecommerce.SwagLabs.Cart.ContinueShopping_Test<br/>
+<a href="#Output-998004967" onClick='toggleBox("Output-998004967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998004967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998004967">
+Continue Shopping navigated to inventory successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecommerce.SwagLabs.Cart.ContinueShopping_Test@6150c3ec</td></tr>
+</table><p>
+</body>
+</html>
