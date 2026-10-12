@@ -2,10 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="System Testing">
-	<listeners>
-		<listener
-			class-name="ecommerce.SwagLabs.genericutility.ScreenshotListener"></listener>
-	</listeners>
+	
 	<test name="System Test Scenarios">
 
 		<classes>
